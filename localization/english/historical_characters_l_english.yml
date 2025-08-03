@@ -1,0 +1,3 @@
+﻿l_english:
+  HISTORICAL_CHARACTER_TOOLTIP: "#T Historical Character#!\n\n#high [Character.Custom('HistoricalCharacterDesc')]#!\n\n#weak This character is historical, but might deviate compared to [Character.GetHerHis] real-life counterpart based on the [culture|E] and [faith|E] of [Character.GetHerHis] place of origin. [Character.GetSheHe|U] might also appear slightly outside of [Character.GetHerHis] historical date of prominence by around 1-5 years.#!"
+  generic_importance: "This character is of real-life historical importance."
