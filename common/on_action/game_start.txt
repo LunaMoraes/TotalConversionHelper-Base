@@ -1,14 +1,5 @@
 ﻿# Empty scope
 on_game_start = {
-	events = {
-		fp1_scandinavian_adventurers.0004	# FP1 - Organise Norse adventurers.
-		fp1_scandinavian_adventurers.0011	# FP1 - Corral famous Norse adventurers that haven't done much yet.
-		fp1_scandinavian_adventurers.0021	# FP1 - Mark game-start prioritised adventurers.
-		#Guaranteed historical artifacts fixed spawning
-		debug_portraits.1 					# Debug portraits for animation testing
-		easteregg_event.0001				# Charna and Jakub duel.
-	}
-
 	effect = {
 		#Epidemics 3 months grace
 		set_global_variable = {
@@ -119,8 +110,6 @@ on_game_start = {
 				}
 			}
 		}
-
-		setup_tributaries_effect = yes # defined in 00_tributary_setup_effect.txt
 
 		### RELIGIOUS THINGS ###
 		# Set up Holy Site Buildings to be buildable in Holy Sites
@@ -3924,7 +3913,6 @@ on_game_start_after_lobby = {
 	events = {
 		game_rule.1000	#Autopopulate families.
 		game_rule.1011	#Hungarian Migration management.
-		historical_artifacts.0023			# Historical Artifacts Generator
 		mpo_misc.0002 # Have the AI release herders if over domain limit
 	}
 }

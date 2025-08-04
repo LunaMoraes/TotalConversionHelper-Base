@@ -7,4 +7,5 @@ This mod should take care of disabling or removing the following areas of the Ga
 - Decisions
 - Events
 - Bookmarks
+- Legends
 - Map
