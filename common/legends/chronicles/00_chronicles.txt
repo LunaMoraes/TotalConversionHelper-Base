@@ -502,12 +502,6 @@ mythical_descent = {
 		first_valid = {
 			triggered_desc = {
 				trigger = {
-					scope:beast = flag:naga
-				}
-				desc = legend_naga_descent
-			}
-			triggered_desc = {
-				trigger = {
 					scope:beast = flag:dragon
 				}
 				desc = legend_pyusawhti
@@ -517,12 +511,6 @@ mythical_descent = {
 	}
 	description = {
 		first_valid = {
-			triggered_desc = {
-				trigger = {
-					scope:beast = flag:naga
-				}
-				desc = legend_naga_descent_desc
-			}
 			triggered_desc = {
 				trigger = {
 					scope:beast = flag:dragon

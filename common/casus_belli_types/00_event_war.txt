@@ -237,13 +237,6 @@ norman_conquest_cb = {
 		scope:attacker = { 
 			give_nickname = nick_the_conqueror 
 			if = {
-				limit = { exists = global_var:started_norman_yoke_achievement }
-				add_achievement_global_variable_effect = {
-					VARIABLE = achievement_norman_yoke_war_flag
-					VALUE = yes
-				}
-			}
-			if = {
 				limit = {
 					is_ai = yes
 					has_title = title:c_middlesex

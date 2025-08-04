@@ -74,18 +74,6 @@ cid.0001 = {
 		first_valid = {
 			triggered_desc = {
 				trigger = {
-					var:cid_enemy = flag:alfonso
-				}
-				desc = cid.0001.desc.alfonso
-			}
-			triggered_desc = {
-				trigger = {
-					var:cid_enemy = flag:garcia
-				}
-				desc = cid.0001.desc.garcia_ordonez
-			}
-			triggered_desc = {
-				trigger = {
 					var:cid_enemy = flag:liege
 				}
 				desc = cid.0001.desc.liege_hate
@@ -1577,15 +1565,6 @@ cid.2020 = {
 	}
 
 	immediate = {
-		if = {
-			limit = {
-				is_ai = no
-			}
-			add_achievement_global_variable_effect = {
-				VARIABLE = finished_mio_cid_achievement
-				VALUE = yes
-			}
-		}
 		set_variable = had_cid_2020
 		var:cid_liege = { save_scope_as = liege }
 		scope:liege.primary_title = {

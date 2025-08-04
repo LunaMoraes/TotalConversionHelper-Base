@@ -41,19 +41,6 @@ ep3_04_birthright_achievement = {
 	}
 }
 
-# 05. Historically Inaccurate
-ep3_05_historically_inaccurate_achievement = {
-	possible = {
-		
-	}
-	happened = {
-		custom_description = {
-			text = historically_inaccurate_achievement_trigger
-			exists = global_var:finished_historically_inaccurate_achievement
-		}
-	}
-}
-
 # 06. Quantum Leap
 ep3_06_quantum_leap_achievement = {
 	possible = {

@@ -222,7 +222,6 @@ mpo_jamukha_flavor.0020 = {
 		play_music_cue = "mx_cue_murder"
 		custom_tooltip = jamukha_temujin_no_more_positive_tt
 		custom_tooltip = jamukha_temujin_rivals_tt
-		custom_tooltip = mpo_temujin_flavor.0020.cb.tt
 		if = {
 			limit = {
 				current_military_strength < scope:temujin.current_military_strength

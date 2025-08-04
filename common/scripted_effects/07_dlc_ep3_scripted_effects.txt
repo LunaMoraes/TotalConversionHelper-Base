@@ -9901,15 +9901,6 @@ hasan_sabbah_end_war = {
 			trigger_event = {
 				id = hasan_sabbah.1050
 			}
-			if = {
-				limit = {
-					is_ai = no
-				}
-				add_achievement_global_variable_effect = {
-					VARIABLE = finished_the_old_man_of_the_mountain_achievement
-					VALUE = yes
-				}
-			}
 		}
 	}
 	create_title_and_vassal_change = {

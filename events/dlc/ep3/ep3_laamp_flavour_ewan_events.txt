@@ -19147,7 +19147,6 @@ scripted_trigger ep3_laamp_flavour_ewan_4062_cannibal_options_trigger = {
 	OR = {
 		scope:hunter_type = flag:cannibal_generated
 		scope:hunter_type = flag:cannibal_existing
-		scope:hunter_type = flag:cannibal_chad
 	}
 }
 
@@ -19174,7 +19173,6 @@ scripted_trigger ep3_laamp_flavour_ewan_4062_animal_group_human_trigger = {
 	OR = {
 		scope:hunter_type = flag:cannibal_generated
 		scope:hunter_type = flag:cannibal_existing
-		scope:hunter_type = flag:cannibal_chad
 	}
 }
 
@@ -19387,7 +19385,6 @@ scripted_effect ep3_laamp_flavour_ewan_4062_engagement_stress_effect = {
 			OR = {
 				scope:hunter_type = flag:cannibal_generated
 				scope:hunter_type = flag:cannibal_existing
-				scope:hunter_type = flag:cannibal_chad
 			}
 		}
 		stress_impact = {
@@ -19542,10 +19539,6 @@ ep3_laamp_flavour_ewan.4062 = {
 			triggered_desc = {
 				trigger = { scope:hunter_type = flag:cannibal_existing }
 				desc = ep3_laamp_flavour_ewan.4062.t.cannibal_existing
-			}
-			triggered_desc = {
-				trigger = { scope:hunter_type = flag:cannibal_chad }
-				desc = ep3_laamp_flavour_ewan.4062.t.cannibal_chad
 			}
 		}
 	}
@@ -19746,10 +19739,6 @@ ep3_laamp_flavour_ewan.4062 = {
 						desc = ep3_laamp_flavour_ewan.4062.desc.animal.cannibal_existing.fallback
 					}
 				}
-			}
-			triggered_desc = {
-				trigger = { scope:hunter_type = flag:cannibal_chad }
-				desc = ep3_laamp_flavour_ewan.4062.desc.animal.cannibal_chad
 			}
 		}
 	}

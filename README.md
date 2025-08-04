@@ -8,4 +8,5 @@ This mod should take care of disabling or removing the following areas of the Ga
 - Events
 - Bookmarks
 - Legends
+- Modifiers (partially)
 - Map
