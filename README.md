@@ -4,4 +4,7 @@ This mod should take care of disabling or removing the following areas of the Ga
 - Dynasties
 - Characters
 - DEFAULT Coat of Arms
+- Decisions
+- Events
+- Bookmarks
 - Map
